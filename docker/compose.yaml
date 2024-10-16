@@ -1,0 +1,11 @@
+name: trivia
+services:
+  main:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    hostname: trivia
+    stdin_open: true
+    tty: true
+    volumes:
+      - ..:/home/user/workspace

@@ -1,0 +1,6 @@
+{
+  "name": "trivia",
+  "dockerComposeFile": "../docker/compose.yaml",
+  "service": "main",
+  "workspaceFolder": "/home/user/workspace"
+}
